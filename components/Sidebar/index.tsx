@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import Navigation from './Navigation';
 
@@ -8,7 +9,11 @@ const Sidebar = () => {
   return (
     <aside className={styles.container}>
       <header>
-        <h1 className={styles.title}>Code challenges</h1>
+        <Link href='/'>
+          <a>
+            <h1 className={styles.title}>Code challenges</h1>
+          </a>
+        </Link>
       </header>
       <Navigation />
     </aside>

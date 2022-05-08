@@ -1,0 +1,12 @@
+.link {
+    font-weight: 600;
+    display: block;
+    padding: .5em .3em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.link:hover {
+    color: white;
+    background: var(--text);
+}
