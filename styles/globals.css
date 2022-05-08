@@ -1,9 +1,16 @@
+:root {
+    --primary: #62929E;
+    --text: #393D37;
+    --white: #FDFDFF;
+    --black: #000;
+}
+
 html,
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    font-family: Poppins, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    margin: 0;
-    padding: 0;
+    color: var(--text);
+    background-color: var(--white);
 }
 
 a {
@@ -13,4 +20,6 @@ a {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }

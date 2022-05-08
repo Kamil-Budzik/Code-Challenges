@@ -2,10 +2,14 @@ import React from 'react';
 
 import Navigation from './Navigation';
 
+import styles from '../../styles/Sidebar.module.css';
+
 const Sidebar = () => {
   return (
-    <aside>
-      <h1>Code challenges</h1>
+    <aside className={styles.container}>
+      <header>
+        <h1 className={styles.title}>Code challenges</h1>
+      </header>
       <Navigation />
     </aside>
   );

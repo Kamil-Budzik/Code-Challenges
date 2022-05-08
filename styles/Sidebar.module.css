@@ -1,0 +1,12 @@
+
+.container {
+    padding: 28px 0.5em;
+    border: 1px solid var(--text);
+    grid-row: 1/-1;
+}
+
+.title {
+    font-size: 1.6rem;
+    margin: 0 0 28px;
+    color: var(--primary);
+}
